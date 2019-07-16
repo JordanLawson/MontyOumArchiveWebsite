@@ -1,0 +1,30 @@
+This document is designed as a brief summary of the types of requirements involved in the SW development process in order to create a deliverable document.
+
+Break down of requirement types:
++--------------------------+
+
++--------------------------+
+
+Here is the layout for an average SW deliverable document:
+*==========================*
+Introduction
+	Purpose
+	Design Goals
+	References
+User Requirements
+System Requirements Specification
+	User Characteristics
+	Functional Requirements
+	Non-Functional Requirements
+Design Decisions
+Access Control and Securtiy Decisions
+	Access control Matrix
+	Security Decision Breakdown
+Architectural Design
+	Overview
+	Subsystem Decomposition
+	Persistent Data Management
+	Site Navigation
+Requirement Traceability Matrix
+Glossary
+*==========================*
