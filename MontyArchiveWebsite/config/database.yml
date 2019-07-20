@@ -16,6 +16,7 @@ default: &default
   username: root
   password: 4295263
   host: localhost
+  socket: MySQL
 
 development:
   <<: *default
