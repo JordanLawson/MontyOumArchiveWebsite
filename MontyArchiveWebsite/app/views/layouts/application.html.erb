@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="gradient">
   <head>
     <title>MontyArchiveWebsite</title>
     <%= csrf_meta_tags %>
@@ -9,6 +9,18 @@
   </head>
 
   <body>
+  
+    <header class="navbar  navbar-inverse" id="textbox">
+    <div class="navbar-class" >
+      <div class="container">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">HOME</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  
     <%= yield %>
   </body>
 </html>
