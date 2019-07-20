@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'interviews/index'
+
+  get 'social/index'
+  
+  resources :interviews
+
   get 'landing/index'
   root'landing#index'
 
