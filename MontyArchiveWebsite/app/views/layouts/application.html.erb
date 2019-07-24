@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="gradient" lang="en">
+<html lang="en">
   <head>
     <title>MontyArchiveWebsite</title>
     <%= csrf_meta_tags %>
@@ -9,18 +9,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <body>
+  <body id="yellow-gradient" class="cleartext" >
   
-    <header class="container" id="textbox">
-    <nav class="navbar navbar-default" >
-      <div class="container-fluid">
+    <header >
+    <nav class="navbar navbar-default" id="textbox">
+      <div class="container-fluid" >
 	  
 		<div class="navbar-header">
-			<%= link_to "Home", root_path, class: "navbar-brand" %>
+			<%= link_to "Home", root_path, class: "cleartext" %>
 		</div>
 		
 		<ul class="nav navbar-nav navbar-right">
-			<li><%= link_to "Social", social_index_path%></li>
+			<li><%= link_to "Social", social_index_path, class: "cleartext"%></li>
 		</ul>
 		
       </div>

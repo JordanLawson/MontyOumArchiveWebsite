@@ -17,7 +17,22 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  
- html {
+
+:root{
+
+//color variables
+ --color-gray: #C9C9C9;
+ 
+ --color-red: #700606;
+ --color-white: #E0E0E0;
+ --color-black: #212121;
+ --color-yellow: #F0F0C8;
+//colors=================
+
+}
+
+ 
+html {
     height: 100%;
 }
 * {
@@ -36,14 +51,33 @@ body {
     background-attachment: fixed;
 }
  
- #textbox{
-	background: #212121;
+.cleartext{
+	color: var(--color-gray);
+	text-shadow: -1px -1px 0  var(--color-black), 
+				1px -1px 0 var(--color-black), 
+				-1px 1px 0 var(--color-black), 
+				1px 1px 0 var(--color-black);
+	font-size: 150%;
+	text-size-adjust: auto;
+}
+
+ 
+ 
+#textbox{
+	background-color: var(--color-white)!important;
+	border-color: var(--color-black);
  }
  
  
- #gradient{
-	background: #212121;
-	background: -moz-linear-gradient(top, #212121 0%, #E0E0E0 100%);
-	background: -webkit-linear-gradient(top, #212121 0%, #E0E0E0 100%);
-	background: linear-gradient(to bottom, #212121 0%, #E0E0E0 100%);
+#red-gradient{
+	background: linear-gradient(var(--color-black),var(--color-red));
+ }
+#white-gradient{
+	background: linear-gradient(var(--color-white),var(--color-gray));
+ }
+#black-gradient{
+	background: linear-gradient(var(--color-gray),var(--color-black));
+ }
+#yellow-gradient{
+	background: linear-gradient(var(--color-yellow),var(--color-red));
  }
