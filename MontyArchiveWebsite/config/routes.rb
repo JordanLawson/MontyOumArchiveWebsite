@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'life/index'
+
+  get 'animations/index'
+
   get 'interviews/index'
 
   get 'social/index'

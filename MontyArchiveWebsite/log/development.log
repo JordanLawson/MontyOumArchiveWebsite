@@ -2035,3 +2035,1330 @@ Processing by LandingController#index as HTML
 Completed 200 OK in 7415ms (Views: 7252.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-07-25 20:32:59 -0400
+  [1m[35m (21.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (4.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 8378ms (Views: 8002.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-25 20:33:13 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1980ms (Views: 1586.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 20:37:23 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2242ms (Views: 1836.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-07-25 20:51:57 -0400
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 8042ms (Views: 7648.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 20:53:35 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1090ms (Views: 910.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/social/index" for ::1 at 2019-07-25 20:54:27 -0400
+Processing by SocialController#index as HTML
+  Rendering social/index.html.erb within layouts/application
+  Rendered social/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1111ms (Views: 940.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 20:58:16 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 2487ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `_index_path' for #<#<Class:0x00000000084139f0>:0x000000000ca3a5f0>
+Did you mean?  video_path):
+    20: 		</div>
+    21: 		
+    22: 		<ul class="nav navbar-nav navbar-right">
+    23: 			<li><%= link_to "Animations", _index_path, class: "cleartext"%></li>
+    24: 		</ul>
+    25: 		
+    26: 		<ul class="nav navbar-nav navbar-right">
+  
+app/views/layouts/application.html.erb:23:in `_app_views_layouts_application_html_erb__491247490_106010420'
+Started GET "/" for ::1 at 2019-07-25 21:03:47 -0400
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Started GET "/" for ::1 at 2019-07-25 21:03:57 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13679ms (Views: 13299.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2164ms (Views: 1763.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/interviews/index" for ::1 at 2019-07-25 21:04:25 -0400
+Processing by InterviewsController#index as HTML
+  Rendering interviews/index.html.erb within layouts/application
+  Rendered interviews/index.html.erb within layouts/application (260.1ms)
+Completed 500 Internal Server Error in 1904ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:     <th></th>
+     8:   </tr>
+     9:  
+    10:   <% @interviews.each do |interview| %>
+    11:     <tr>
+    12:       <td><%= interview.title %></td>
+    13:       <td><%= interview.description %></td>
+  
+app/views/interviews/index.html.erb:10:in `_app_views_interviews_index_html_erb__877006509_141462160'
+Started GET "/" for ::1 at 2019-07-25 21:04:34 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2074ms (Views: 1684.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT GET_LOCK('8181962603098489695', 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('8181962603098489695')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (48.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MontyArchiveWebsite_development`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (5.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MontyArchiveWebsite_test`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (6.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MontyArchiveWebsite_development`[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (6.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS `MontyArchiveWebsite_test`[0m
+Started GET "/" for ::1 at 2019-07-25 21:08:43 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12033ms (Views: 11667.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/interviews/index" for ::1 at 2019-07-25 21:08:59 -0400
+Processing by InterviewsController#index as HTML
+  Rendering interviews/index.html.erb within layouts/application
+  Rendered interviews/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1773ms (Views: 1404.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/life/index" for ::1 at 2019-07-25 21:09:03 -0400
+Processing by LifeController#index as HTML
+  Rendering life/index.html.erb within layouts/application
+  Rendered life/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2106ms (Views: 1715.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:09:07 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2040ms (Views: 1649.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:15:19 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2035ms (Views: 1665.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:15:43 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2007ms (Views: 1628.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:16:51 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11130ms (Views: 10962.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:21:20 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12081ms (Views: 11621.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:22:20 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12236ms (Views: 11846.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:22:46 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11536ms (Views: 11164.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:23:59 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11770ms (Views: 11375.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:25:36 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1162ms (Views: 978.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:26:41 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11807ms (Views: 11429.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/social/index" for ::1 at 2019-07-25 21:26:58 -0400
+Processing by SocialController#index as HTML
+  Rendering social/index.html.erb within layouts/application
+  Rendered social/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2160ms (Views: 1755.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:27:03 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1697ms (Views: 1348.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:28:48 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1891ms (Views: 1592.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:29:36 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1150ms (Views: 974.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:30:54 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1140ms (Views: 957.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:30:56 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2048ms (Views: 1680.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:40:55 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11521ms (Views: 11147.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:42:21 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12200ms (Views: 11892.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 21:44:31 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11522ms (Views: 11176.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:44:45 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1581ms (Views: 1298.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:45:00 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1935ms (Views: 1549.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:52:37 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11348ms (Views: 10964.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:54:27 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11099ms (Views: 10911.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:55:06 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 12091ms (Views: 11712.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:56:19 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11733ms (Views: 11366.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:57:06 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11824ms (Views: 11428.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:57:43 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11769ms (Views: 11402.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 21:58:08 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2180ms (Views: 1754.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:00:15 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1145ms (Views: 977.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:00:21 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11754ms (Views: 11494.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:06:07 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11532ms (Views: 11151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:07:49 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1822ms (Views: 1448.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:08:35 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10858ms (Views: 10677.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:10:20 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2122ms (Views: 1745.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:11:03 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2044ms (Views: 1658.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:11:52 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11593ms (Views: 11230.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:12:25 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11309ms (Views: 10941.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:13:36 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1147ms (Views: 969.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:14:21 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11786ms (Views: 11419.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:15:06 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11719ms (Views: 11335.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:15:44 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11597ms (Views: 11217.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:16:43 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1609ms (Views: 1305.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:16:54 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1743ms (Views: 1356.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:17:27 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2142ms (Views: 1744.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:18:54 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11580ms (Views: 11176.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:20:13 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1693ms (Views: 1309.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:20:54 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2017ms (Views: 1631.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:24:37 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11958ms (Views: 11568.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:26:15 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11896ms (Views: 11501.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:29:00 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11484ms (Views: 11112.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:29:27 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11840ms (Views: 11411.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:33:01 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11677ms (Views: 11292.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:33:50 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1155ms (Views: 987.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:38:12 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11549ms (Views: 11160.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:41:53 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11497ms (Views: 11093.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:43:11 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1176ms (Views: 999.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:43:35 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1138ms (Views: 968.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:45:53 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11756ms (Views: 11369.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:47:46 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2153ms (Views: 1760.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:51:08 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 8961ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/assets/config
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/assets/images
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/assets/javascripts
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/assets/stylesheets
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actioncable-5.1.7/lib/assets/compiled
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionview-5.1.7/lib/assets/compiled
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/node_modules
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/popper_js-1.14.5/assets/javascripts
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-4.0.0/assets/stylesheets
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-4.0.0/assets/javascripts
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-4.0.0/assets/stylesheets):
+    4:     <title>MontyArchiveWebsite</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9: 	<meta name="viewport" content="width=device-width, initial-scale=1">
+   10:   </head>
+  
+app/assets/stylesheets/application.scss:18
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__779704605_56341340'
+Started GET "/" for ::1 at 2019-07-25 22:52:47 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25579ms (Views: 25197.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:54:32 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11099ms (Views: 10673.6ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 22:56:47 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11152ms (Views: 10731.6ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:10:04 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 20897ms (Views: 19905.2ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:11:35 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1440ms (Views: 1265.3ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:11:53 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 2040ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js' with type 'application/javascript'
+Checked in these paths: 
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/assets/config
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/assets/images
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/assets/javascripts
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/assets/stylesheets
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actioncable-5.1.7/lib/assets/compiled
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/actionview-5.1.7/lib/assets/compiled
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/node_modules
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/popper_js-1.14.5/assets/javascripts
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-4.0.0/assets/stylesheets
+  C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/bootstrap-4.0.0/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9: 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__923379355_143344900'
+Started GET "/" for ::1 at 2019-07-25 23:13:22 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1168ms (Views: 975.9ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:13:59 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10622ms (Views: 10206.5ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:15:23 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2271ms (Views: 1859.2ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:15:46 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 1758ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "$bgHighlight    ": expected selector or at-rule, was ": #9a1829"):
+    4:     <title>MontyArchiveWebsite</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9: 	<meta name="viewport" content="width=device-width, initial-scale=1">
+   10:   </head>
+  
+app/assets/stylesheets/application.scss:62
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__923379355_127112100'
+Started GET "/" for ::1 at 2019-07-25 23:16:23 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10462ms (Views: 10050.5ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:17:53 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10074ms (Views: 9670.7ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:18:39 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 2715ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `cleartext' for #<#<Class:0x000000000a4d9248>:0x0000000010d2bad0>):
+    16:       <div class="container-fluid" >
+    17: 	  
+    18: 		<div class="navbar-header">
+    19: 			<%= link_to "Home", root_path, class: cleartext %>
+    20: 		</div>
+    21: 		
+    22: 		<ul class="nav navbar-nav navbar-right">
+  
+app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb__923379355_141115720'
+Started GET "/animations/index" for ::1 at 2019-07-25 23:19:12 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 1554ms
+
+
+  
+SyntaxError (G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/layouts/application.html.erb:19: syntax error, unexpected ')'
+...=( link_to "Home", root_path, );@output_buffer.safe_append='
+...                              ^
+G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/layouts/application.html.erb:50: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/layouts/application.html.erb:52: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/layouts/application.html.erb:19: syntax error, unexpected ')'
+app/views/layouts/application.html.erb:50: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:52: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/animations/index" for ::1 at 2019-07-25 23:19:24 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1014ms (Views: 836.5ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 23:19:27 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1995ms (Views: 1599.6ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:19:30 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1678ms (Views: 1284.4ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:20:39 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10280ms (Views: 9908.5ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:21:04 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10302ms (Views: 10066.1ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:21:36 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9997ms (Views: 9617.8ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 23:24:53 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1163ms (Views: 995.5ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-25 23:25:36 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10397ms (Views: 10005.6ms)
+
+
+Started GET "/interviews/index" for ::1 at 2019-07-25 23:32:50 -0400
+Processing by InterviewsController#index as HTML
+  Rendering interviews/index.html.erb within layouts/application
+  Rendered interviews/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1130ms (Views: 961.4ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:32:53 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1992ms (Views: 1618.9ms)
+
+
+Started GET "/" for ::1 at 2019-07-25 23:42:12 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1998ms (Views: 1586.7ms)
+
+
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" for ::1 at 2019-07-25 23:42:15 -0400
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:42:15 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:42:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-25 23:44:22 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2081ms (Views: 1689.0ms)
+
+
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:44:25 -0400
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" for ::1 at 2019-07-25 23:44:25 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:44:32 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-25 23:46:32 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2029ms (Views: 1644.9ms)
+
+
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:46:35 -0400
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" for ::1 at 2019-07-25 23:46:35 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:46:42 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-25 23:49:02 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1526ms (Views: 1246.1ms)
+
+
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:49:04 -0400
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" for ::1 at 2019-07-25 23:49:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:49:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-07-25 23:50:18 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2147ms (Views: 1730.2ms)
+
+
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" for ::1 at 2019-07-25 23:50:20 -0400
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:50:20 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" for ::1 at 2019-07-25 23:50:27 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'

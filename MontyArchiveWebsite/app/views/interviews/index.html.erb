@@ -1,17 +1,2 @@
-<h1>Listing Interviews</h1>
- 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-    <th></th>
-  </tr>
- 
-  <% @interviews.each do |interview| %>
-    <tr>
-      <td><%= interview.title %></td>
-      <td><%= interview.description %></td>
-      <td><%= link_to 'Show', interview_path(interview) %></td>
-    </tr>
-  <% end %>
-</table>
+<h1>Interviews#index</h1>
+<p>Find me in app/views/interviews/index.html.erb</p>

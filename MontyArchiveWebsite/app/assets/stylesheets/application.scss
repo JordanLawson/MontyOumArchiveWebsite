@@ -9,12 +9,10 @@
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
  */
- 
- @import "bootstrap-sprockets";
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+
  @import "bootstrap";
  
 
@@ -22,11 +20,14 @@
 
 //color variables
  --color-gray: #C9C9C9;
+ --color-gray-alpha: rgba(201,201,201,0.25);
  
  --color-red: #700606;
- --color-white: #E0E0E0;
+ --color-white: #e9fffd;
  --color-black: #212121;
  --color-yellow: #F0F0C8;
+ 
+ --color-purple-alpha: rgba(22,9,33,0.25);
 //colors=================
 
 }
@@ -52,32 +53,157 @@ body {
 }
  
 .cleartext{
-	color: var(--color-gray);
-	text-shadow: -1px -1px 0  var(--color-black), 
-				1px -1px 0 var(--color-black), 
-				-1px 1px 0 var(--color-black), 
-				1px 1px 0 var(--color-black);
 	font-size: 150%;
 	text-size-adjust: auto;
 }
 
  
+//navbar
+$bgDefault      : #0f0e0e;
+$bgHighlight    : #9a1829;
+$colDefault     : #e9fffd;
+$colHighlight   : #F0F0C8;
+$dropDown       : true;
+.navbar {
+  background-color: $bgDefault;
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+  .navbar-text {
+    color: $colDefault; 
+    a {
+      color: $colHighlight;
+      &:hover, &:focus {
+        color: $colHighlight; }}}
+  .navbar-nav {
+    .nav-link {
+      color: $colDefault;
+      border-radius: .25rem;
+      margin: 0 0.25em;
+      &:not(.disabled) {
+        &:hover, &:focus {
+          color: $colHighlight; }}}
+    @if ($dropDown) {
+      .dropdown-menu {
+        background-color: $bgDefault;
+        border-color: $bgHighlight;
+        .dropdown-item {
+          color: $colDefault;
+          &:hover, &:focus, &.active {
+            color: $colHighlight;
+            background-color: $bgHighlight; }}
+        .dropdown-divider {
+          border-top-color: $bgHighlight; }}}
+    .nav-item.active, .nav-item.show {
+      .nav-link, .nav-link:hover, .nav-link:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .navbar-toggler-icon {
+      color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 575px) {
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu {
+    .dropdown-item {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    .dropdown-item.active {
+      color: $colHighlight;
+      background-color: $bgHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-expend-md .navbar-nav .show .dropdown-menu {
+    .dropdown-item {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    .dropdown-item.active {
+      color: $colHighlight;
+      background-color: $bgHighlight; }}}
+@media (max-width: 991px) {
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu {
+    .dropdown-item {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    .dropdown-item.active {
+      color: $colHighlight;
+      background-color: $bgHighlight; }}}
+@media (max-width: 1199px) {
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu {
+    .dropdown-item {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    .dropdown-item.active {
+      color: $colHighlight;
+      background-color: $bgHighlight; }}}
+.navbar-expend .navbar-nav .show .dropdown-menu {
+  .dropdown-item {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+  .dropdown-item.active {
+    color: $colHighlight;
+    background-color: $bgHighlight; }}
  
-#textbox{
-	background-color: var(--color-white)!important;
+ 
+ 
+//Colored Themes
+ 
+#textbox_r{
+	background-color: var(--color-gray-alpha)!important;
 	border-color: var(--color-black);
+	display: inline-block;
+	padding: 15px;
+	border-radius: 10px;
+	color: var(--color-white);
+ }
+#textbox_w{
+	background-color: var(--color-gray-alpha)!important;
+	border-color: var(--color-black);
+	display: inline-block;
+	padding: 15px;
+	border-radius: 10px;
+	color: var(--color-white);
+ } 
+#textbox_b{
+	background-color: var(--color-purple-alpha)!important;
+	border-color: var(--color-black);
+	display: inline-block;
+	padding: 15px;
+	border-radius: 10px;
+	color: var(--color-white);
+ }
+#textbox_y{
+	background-color: var(--color-gray-alpha)!important;
+	border-color: var(--color-black);
+	display: inline-block;
+	padding: 15px;
+	border-radius: 10px;
+	color: var(--color-white);
  }
  
  
-#red-gradient{
+#body_r{
 	background: linear-gradient(var(--color-black),var(--color-red));
- }
-#white-gradient{
+} 
+#body_w{
 	background: linear-gradient(var(--color-white),var(--color-gray));
  }
-#black-gradient{
+#body_b{
 	background: linear-gradient(var(--color-gray),var(--color-black));
  }
-#yellow-gradient{
-	background: linear-gradient(var(--color-yellow),var(--color-red));
+#body_y{
+	background: linear-gradient(var(--color-yellow),var(--color-white));
  }
