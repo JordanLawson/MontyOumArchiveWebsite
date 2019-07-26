@@ -4830,3 +4830,220 @@ Processing by LandingController#index as HTML
 Completed 200 OK in 175ms (Views: 157.4ms)
 
 
+Started GET "/" for ::1 at 2019-07-26 06:27:40 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 4133ms (Views: 3791.8ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:29:19 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1619ms (Views: 1606.7ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 06:29:29 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 198ms (Views: 181.7ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:29:31 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 193ms (Views: 176.6ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:29:35 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 222ms (Views: 208.6ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:29:35 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 226ms (Views: 210.9ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:34:41 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 241ms (Views: 223.8ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:34:44 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 185ms (Views: 172.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:40:02 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 389ms (Views: 374.9ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:45:50 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1823ms (Views: 1806.8ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:47:25 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1971ms (Views: 1959.2ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:47:58 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1643ms (Views: 1629.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:48:43 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1986ms (Views: 1967.1ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:49:17 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 281ms (Views: 262.1ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:50:16 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1999ms (Views: 1979.6ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:51:32 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1951ms (Views: 1933.8ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:51:52 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1645ms (Views: 1631.8ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:52:36 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1915ms (Views: 1899.4ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:56:06 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 242ms (Views: 229.2ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 06:56:18 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 201ms (Views: 187.5ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 06:57:32 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 890ms (Views: 875.7ms)
+
+
+Started GET "/interviews/index" for ::1 at 2019-07-26 06:57:42 -0400
+Processing by InterviewsController#index as HTML
+  Rendering interviews/index.html.erb within layouts/application
+  Rendered interviews/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 183ms (Views: 170.7ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 06:57:46 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 164ms (Views: 150.6ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 07:00:16 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 189ms (Views: 175.9ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 07:01:04 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 191ms (Views: 177.9ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 07:01:22 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 182ms (Views: 169.8ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 07:01:31 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 180ms (Views: 166.7ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 07:01:51 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 186ms (Views: 173.4ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 07:02:07 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 190ms (Views: 176.4ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 07:02:09 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 213ms (Views: 200.4ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 07:02:53 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 955ms (Views: 941.5ms)
+
+
