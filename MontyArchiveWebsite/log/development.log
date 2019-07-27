@@ -5047,3 +5047,115 @@ Processing by AnimationsController#index as HTML
 Completed 200 OK in 955ms (Views: 941.5ms)
 
 
+Started GET "/" for ::1 at 2019-07-26 16:54:34 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 8938ms (Views: 7934.5ms)
+
+
+Started GET "/interviews/index" for ::1 at 2019-07-26 16:54:54 -0400
+Processing by InterviewsController#index as HTML
+  Rendering interviews/index.html.erb within layouts/application
+  Rendered interviews/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1088ms (Views: 888.1ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 16:54:56 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1048ms (Views: 855.0ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 16:54:59 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1018ms (Views: 834.0ms)
+
+
+Started GET "/social/index" for ::1 at 2019-07-26 16:55:15 -0400
+Processing by SocialController#index as HTML
+  Rendering social/index.html.erb within layouts/application
+  Rendered social/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 964ms (Views: 793.3ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-26 16:55:24 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1000ms (Views: 826.6ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 16:57:05 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1026ms (Views: 842.5ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 17:03:18 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1791ms (Views: 1610.2ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 17:03:34 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1733ms (Views: 1553.6ms)
+
+
+Started GET "/social/index" for ::1 at 2019-07-26 17:07:30 -0400
+Processing by SocialController#index as HTML
+  Rendering social/index.html.erb within layouts/application
+  Rendered social/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 949ms (Views: 777.2ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 17:07:36 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 995ms (Views: 818.3ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 17:13:28 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1029ms (Views: 832.3ms)
+
+
+Started GET "/" for ::1 at 2019-07-26 17:14:17 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 963ms (Views: 792.4ms)
+
+
+Started GET "/social/index" for ::1 at 2019-07-26 17:14:19 -0400
+Processing by SocialController#index as HTML
+  Rendering social/index.html.erb within layouts/application
+  Rendered social/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 955ms (Views: 785.7ms)
+
+
+Started GET "/life/index" for ::1 at 2019-07-26 17:14:23 -0400
+Processing by LifeController#index as HTML
+  Rendering life/index.html.erb within layouts/application
+  Rendered life/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1007ms (Views: 834.2ms)
+
+
+Started GET "/social/index" for ::1 at 2019-07-26 17:14:54 -0400
+Processing by SocialController#index as HTML
+  Rendering social/index.html.erb within layouts/application
+  Rendered social/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 951ms (Views: 780.4ms)
+
+
