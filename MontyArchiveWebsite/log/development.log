@@ -6272,3 +6272,149 @@ Processing by HighVoltage::PagesController#show as HTML
 Completed 200 OK in 767ms (Views: 766.4ms)
 
 
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:24:30 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (1206.9ms)
+Completed 200 OK in 2724ms (Views: 2723.3ms)
+
+
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:25:22 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 1386ms (Views: 1385.8ms)
+
+
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:26:37 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1423ms (Views: 1422.7ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 21:26:46 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 1428ms (Views: 1427.7ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 21:27:09 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 2200ms (Views: 2199.4ms)
+
+
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:27:23 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 1410ms (Views: 1409.5ms)
+
+
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:28:43 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 1433ms (Views: 1432.1ms)
+
+
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:30:28 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 925ms
+
+
+  
+SyntaxError (G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting ')'
+...r.append=( image_tag("df2") max-width: 100%; );@output_buffe...
+...                            ^~~
+G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected ':', expecting ')'
+...d=( image_tag("df2") max-width: 100%; );@output_buffer.safe_...
+...                              ^
+G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/pages/animations/df/ep-2.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/pages/animations/df/ep-2.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected ':', expecting ')'
+app/views/pages/animations/df/ep-2.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/animations/df/ep-2.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:31:26 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 945ms
+
+
+  
+SyntaxError (G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected ',', expecting ')'
+...ffer.append=( image_tag("df2"), max-width: 100%; );@output_b...
+...                              ^
+G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected ':', expecting ')'
+...=( image_tag("df2"), max-width: 100%; );@output_buffer.safe_...
+...                              ^
+G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/pages/animations/df/ep-2.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/pages/animations/df/ep-2.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected ',', expecting ')'
+app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected ':', expecting ')'
+app/views/pages/animations/df/ep-2.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pages/animations/df/ep-2.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:31:52 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 929ms
+
+
+  
+SyntaxError (G:/My Drive/Project Files/Monty Oum Archive/MontyOumArchiveWebsite/MontyArchiveWebsite/app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected ',', expecting ')'
+...ffer.append=( image_tag("df2"), style: "max-width: 100%;" );...
+...                              ^):
+  
+app/views/pages/animations/df/ep-2.html.erb:3: syntax error, unexpected ',', expecting ')'
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:32:33 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 1367ms (Views: 1366.1ms)
+
+
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:33:06 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 1404ms (Views: 1403.1ms)
+
+
+Started GET "/pages/animations/df/ep-2" for ::1 at 2019-07-29 21:34:51 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-2"}
+  Rendering pages/animations/df/ep-2.html.erb within layouts/application
+  Rendered pages/animations/df/ep-2.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 758ms (Views: 757.1ms)
+
+
