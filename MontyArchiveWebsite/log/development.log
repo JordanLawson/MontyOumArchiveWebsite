@@ -5765,3 +5765,510 @@ Processing by HighVoltage::PagesController#show as HTML
 Completed 200 OK in 138ms (Views: 137.3ms)
 
 
+Started GET "/" for ::1 at 2019-07-29 19:26:53 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 11065ms (Views: 9676.6ms)
+
+
+Started GET "/pages/interviews/test" for ::1 at 2019-07-29 19:27:06 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"interviews/test"}
+Completed 404 Not Found in 425ms
+
+
+  
+ActionController::RoutingError (No such page: interviews/test):
+  
+high_voltage (3.1.2) app/controllers/concerns/high_voltage/static_page.rb:26:in `invalid_page'
+high_voltage (3.1.2) app/controllers/concerns/high_voltage/static_page.rb:9:in `block (2 levels) in <module:StaticPage>'
+activesupport (5.1.7) lib/active_support/rescuable.rb:115:in `instance_exec'
+activesupport (5.1.7) lib/active_support/rescuable.rb:115:in `block in handler_for_rescue'
+activesupport (5.1.7) lib/active_support/rescuable.rb:91:in `rescue_with_handler'
+activesupport (5.1.7) lib/active_support/rescuable.rb:164:in `rescue_with_handler'
+actionpack (5.1.7) lib/action_controller/metal/rescue.rb:23:in `rescue in process_action'
+actionpack (5.1.7) lib/action_controller/metal/rescue.rb:19:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.7) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.7) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.7) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.7) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.7) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.7) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.7) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.7) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.7) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.7) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.7) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.7) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.7) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/pages/interviews/panels/test" for ::1 at 2019-07-29 19:27:26 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"interviews/panels/test"}
+  Rendering pages/interviews/panels/test.html.erb within layouts/application
+  Rendered pages/interviews/panels/test.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1929ms (Views: 1928.4ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 19:53:22 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 838ms (Views: 837.2ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 19:53:43 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (2674.1ms)
+Completed 500 Internal Server Error in 3525ms
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( animations.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= stylesheet_link_tag    'animations', media: 'all'%>
+    2: <h1>Dead Fantasy Series</h1>
+  
+app/views/pages/animations/df/about.html.erb:1:in `_app_views_pages_animations_df_about_html_erb__726075682_106913260'
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 19:56:39 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (675.8ms)
+Completed 500 Internal Server Error in 1445ms
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( animations.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <%= stylesheet_link_tag    'animations', media: 'all'%>
+    2: <h1>Dead Fantasy Series</h1>
+  
+app/views/pages/animations/df/about.html.erb:1:in `_app_views_pages_animations_df_about_html_erb__726075682_99916420'
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 19:57:44 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1381ms (Views: 1380.8ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 19:59:04 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1370ms (Views: 1369.4ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:04:02 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1401ms (Views: 1400.7ms)
+
+
+Started GET "/" for ::1 at 2019-07-29 20:04:06 -0400
+Processing by LandingController#index as HTML
+  Rendering landing/index.html.erb within layouts/application
+  Rendered landing/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2128ms (Views: 1809.6ms)
+
+
+Started GET "/animations/index" for ::1 at 2019-07-29 20:04:10 -0400
+Processing by AnimationsController#index as HTML
+  Rendering animations/index.html.erb within layouts/application
+  Rendered animations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2119ms (Views: 1704.8ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:14:18 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (743.1ms)
+Completed 200 OK in 1579ms (Views: 1578.3ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:14:48 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 701ms (Views: 700.6ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:15:00 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 743ms (Views: 742.6ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:16:16 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 716ms (Views: 715.2ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:17:07 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 749ms (Views: 748.6ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:17:34 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 727ms (Views: 725.9ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:17:44 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 719ms (Views: 718.1ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:18:07 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 716ms (Views: 715.4ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:19:46 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 1432ms (Views: 1431.7ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:20:25 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 1448ms (Views: 1447.4ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:20:43 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 1412ms (Views: 1411.2ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:21:12 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 1437ms (Views: 1436.2ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:27:33 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1479ms (Views: 1478.7ms)
+
+
+Started GET "/pages/animations/df/about" for ::1 at 2019-07-29 20:30:40 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/about"}
+  Rendering pages/animations/df/about.html.erb within layouts/application
+  Rendered pages/animations/df/about.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 719ms (Views: 718.1ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:33:54 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (1452.5ms)
+Completed 200 OK in 2356ms (Views: 2355.6ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:40:23 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 1478ms (Views: 1477.4ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:43:52 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 727ms (Views: 727.0ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:44:13 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 735ms (Views: 734.3ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:44:53 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 734ms (Views: 733.6ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:45:03 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 748ms (Views: 747.7ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:45:38 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 726ms (Views: 725.4ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:45:58 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 725ms (Views: 724.7ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:46:17 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 727ms (Views: 726.6ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:46:59 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 736ms (Views: 735.3ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:47:17 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 735ms (Views: 734.4ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:48:22 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 735ms (Views: 734.4ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:50:50 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 735ms (Views: 734.3ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:51:46 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 751ms (Views: 751.0ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:51:58 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 776ms (Views: 775.2ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:52:12 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 783ms (Views: 782.5ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:55:13 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 715ms (Views: 714.8ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:55:40 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 732ms (Views: 731.0ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:55:47 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 751ms (Views: 750.3ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:56:07 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 739ms (Views: 738.6ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:56:26 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 756ms (Views: 755.1ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:57:55 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 713ms (Views: 712.8ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:59:28 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 737ms (Views: 736.1ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 20:59:38 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 1469ms (Views: 1468.5ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 21:00:21 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 728ms (Views: 727.4ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 21:01:15 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 1440ms (Views: 1439.9ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 21:01:51 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 702ms (Views: 701.0ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 21:03:10 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 1453ms (Views: 1452.9ms)
+
+
+Started GET "/pages/animations/df/ep-1" for ::1 at 2019-07-29 21:03:20 -0400
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"animations/df/ep-1"}
+  Rendering pages/animations/df/ep-1.html.erb within layouts/application
+  Rendered pages/animations/df/ep-1.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 767ms (Views: 766.4ms)
+
+

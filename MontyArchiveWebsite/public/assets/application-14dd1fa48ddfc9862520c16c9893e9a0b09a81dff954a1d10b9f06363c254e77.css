@@ -1,0 +1,304 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ */
+/* line 17, app/assets/stylesheets/application.scss */
+:root {
+  --color-gray: #C9C9C9;
+  --color-gray-alpha: rgba(201,201,201,0.25);
+  --color-red: #700606;
+  --color-white: #e9fffd;
+  --color-black: #212121;
+  --color-yellow: #F0F0C8;
+  --color-purple-alpha: rgba(22,9,33,0.25);
+}
+
+/* line 34, app/assets/stylesheets/application.scss */
+html {
+  height: 100%;
+}
+
+/* line 38, app/assets/stylesheets/application.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 44, app/assets/stylesheets/application.scss */
+header {
+  line-height: 300%;
+}
+
+/* line 48, app/assets/stylesheets/application.scss */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* line 55, app/assets/stylesheets/application.scss */
+.cleartext {
+  font-size: 150%;
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+      -ms-text-size-adjust: auto;
+          text-size-adjust: auto;
+}
+
+/* line 67, app/assets/stylesheets/application.scss */
+.navbar {
+  background-color: var(--color-black) !important;
+}
+
+/* line 69, app/assets/stylesheets/application.scss */
+.navbar .navbar-brand {
+  color: var(--color-white) !important;
+}
+
+/* line 71, app/assets/stylesheets/application.scss */
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+  color: var(--color-yellow) !important;
+}
+
+/* line 73, app/assets/stylesheets/application.scss */
+.navbar .navbar-text {
+  color: var(--color-white) !important;
+}
+
+/* line 75, app/assets/stylesheets/application.scss */
+.navbar .navbar-text a {
+  color: var(--color-yellow) !important;
+}
+
+/* line 77, app/assets/stylesheets/application.scss */
+.navbar .navbar-text a:hover, .navbar .navbar-text a:focus {
+  color: var(--color-yellow) !important;
+}
+
+/* line 80, app/assets/stylesheets/application.scss */
+.navbar .navbar-nav .nav-link {
+  color: var(--color-white) !important;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+
+/* line 85, app/assets/stylesheets/application.scss */
+.navbar .navbar-nav .nav-link:not(.disabled):hover, .navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: var(--color-yellow) !important;
+}
+
+/* line 88, app/assets/stylesheets/application.scss */
+.navbar .navbar-nav .dropdown-menu {
+  background-color: var(--color-black) !important;
+  border-color: var(--color-red) !important;
+}
+
+/* line 91, app/assets/stylesheets/application.scss */
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: var(--color-white) !important;
+}
+
+/* line 93, app/assets/stylesheets/application.scss */
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover, .navbar .navbar-nav .dropdown-menu .dropdown-item:focus, .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+  color: var(--color-yellow) !important;
+  background-color: var(--color-red) !important;
+}
+
+/* line 96, app/assets/stylesheets/application.scss */
+.navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-top-color: var(--color-red) !important;
+}
+
+/* line 99, app/assets/stylesheets/application.scss */
+.navbar .navbar-nav .nav-item.active .nav-link, .navbar .navbar-nav .nav-item.active .nav-link:hover, .navbar .navbar-nav .nav-item.active .nav-link:focus, .navbar .navbar-nav .nav-item.show .nav-link, .navbar .navbar-nav .nav-item.show .nav-link:hover, .navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: var(--color-yellow) !important;
+  background-color: var(--color-red) !important;
+}
+
+/* line 102, app/assets/stylesheets/application.scss */
+.navbar .navbar-toggle {
+  border-color: var(--color-red) !important;
+}
+
+/* line 104, app/assets/stylesheets/application.scss */
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+  background-color: var(--color-red) !important;
+}
+
+/* line 106, app/assets/stylesheets/application.scss */
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: var(--color-white) !important;
+}
+
+/* line 108, app/assets/stylesheets/application.scss */
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: var(--color-white) !important;
+}
+
+/* line 111, app/assets/stylesheets/application.scss */
+.navbar .navbar-link {
+  color: var(--color-white) !important;
+}
+
+/* line 113, app/assets/stylesheets/application.scss */
+.navbar .navbar-link:hover {
+  color: var(--color-yellow) !important;
+}
+
+@media (max-width: 575px) {
+  /* line 117, app/assets/stylesheets/application.scss */
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: var(--color-white) !important;
+  }
+  /* line 119, app/assets/stylesheets/application.scss */
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: var(--color-yellow) !important;
+  }
+  /* line 121, app/assets/stylesheets/application.scss */
+  .navbar-expend-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: var(--color-yellow) !important;
+    background-color: var(--color-red) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 126, app/assets/stylesheets/application.scss */
+  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: var(--color-white) !important;
+  }
+  /* line 128, app/assets/stylesheets/application.scss */
+  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: var(--color-yellow) !important;
+  }
+  /* line 130, app/assets/stylesheets/application.scss */
+  .navbar-expend-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: var(--color-yellow) !important;
+    background-color: var(--color-red) !important;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 135, app/assets/stylesheets/application.scss */
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: var(--color-white) !important;
+  }
+  /* line 137, app/assets/stylesheets/application.scss */
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: var(--color-yellow) !important;
+  }
+  /* line 139, app/assets/stylesheets/application.scss */
+  .navbar-expend-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: var(--color-yellow) !important;
+    background-color: var(--color-red) !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* line 144, app/assets/stylesheets/application.scss */
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: var(--color-white) !important;
+  }
+  /* line 146, app/assets/stylesheets/application.scss */
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: var(--color-yellow) !important;
+  }
+  /* line 148, app/assets/stylesheets/application.scss */
+  .navbar-expend-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: var(--color-yellow) !important;
+    background-color: var(--color-red) !important;
+  }
+}
+
+/* line 152, app/assets/stylesheets/application.scss */
+.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: var(--color-white) !important;
+}
+
+/* line 154, app/assets/stylesheets/application.scss */
+.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:hover, .navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: var(--color-yellow) !important;
+}
+
+/* line 156, app/assets/stylesheets/application.scss */
+.navbar-expend .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: var(--color-yellow) !important;
+  background-color: var(--color-red) !important;
+}
+
+/* line 164, app/assets/stylesheets/application.scss */
+#textbox_r {
+  background-color: var(--color-gray-alpha) !important;
+  border-color: var(--color-black);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--color-white);
+}
+
+/* line 172, app/assets/stylesheets/application.scss */
+#textbox_w {
+  background-color: var(--color-gray-alpha) !important;
+  border-color: var(--color-black);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--color-white);
+}
+
+/* line 180, app/assets/stylesheets/application.scss */
+#textbox_b {
+  background-color: var(--color-purple-alpha) !important;
+  border-color: var(--color-black);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--color-white);
+  -webkit-text-size-adjust: auto;
+     -moz-text-size-adjust: auto;
+      -ms-text-size-adjust: auto;
+          text-size-adjust: auto;
+}
+
+/* line 189, app/assets/stylesheets/application.scss */
+#textbox_y {
+  background-color: var(--color-gray-alpha) !important;
+  border-color: var(--color-black);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--color-white);
+}
+
+/* line 199, app/assets/stylesheets/application.scss */
+#body_r {
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-black)), to(var(--color-red)));
+  background: linear-gradient(var(--color-black), var(--color-red));
+}
+
+/* line 202, app/assets/stylesheets/application.scss */
+#body_w {
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-white)), to(var(--color-gray)));
+  background: linear-gradient(var(--color-white), var(--color-gray));
+}
+
+/* line 205, app/assets/stylesheets/application.scss */
+#body_b {
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-gray)), to(var(--color-black)));
+  background: linear-gradient(var(--color-gray), var(--color-black));
+}
+
+/* line 208, app/assets/stylesheets/application.scss */
+#body_y {
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-yellow)), to(var(--color-white)));
+  background: linear-gradient(var(--color-yellow), var(--color-white));
+}

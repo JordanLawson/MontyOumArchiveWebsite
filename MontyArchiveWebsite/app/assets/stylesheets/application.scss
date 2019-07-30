@@ -50,6 +50,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+#responsive{
+	position:relative;
+	padding-top:56.25%;
+}
  
 .cleartext{
 	font-size: 150%;
@@ -196,14 +201,18 @@ $dropDown       : true;
  
  
 #body_r{
-	background: linear-gradient(var(--color-black),var(--color-red));
+	background: linear-gradient(var(--color-black),var(--color-red)) fixed;
+	width: 100%;
 } 
 #body_w{
-	background: linear-gradient(var(--color-white),var(--color-gray));
+	background: linear-gradient(var(--color-white),var(--color-gray)) fixed;
+	width: 100%;
  }
 #body_b{
-	background: linear-gradient(var(--color-gray),var(--color-black));
+	background: linear-gradient(var(--color-gray),var(--color-black)) fixed;
+	width: 100%;
  }
 #body_y{
-	background: linear-gradient(var(--color-yellow),var(--color-white));
+	background: linear-gradient(var(--color-yellow),var(--color-white)) fixed;
+	width: 100%;
  }

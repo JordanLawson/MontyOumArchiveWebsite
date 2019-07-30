@@ -1,3 +1,41 @@
 // Place all the styles related to the Animations controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+:root{
+
+  //color variables
+  --color-gray: #C9C9C9;
+  --color-gray-alpha: rgba(201,201,201,0.25);
+
+  --color-red: #700606;
+  --color-white: #e9fffd;
+  --color-black: #212121;
+  --color-yellow: #F0F0C8;
+
+  --color-purple-alpha: rgba(22,9,33,0.25);
+  //colors=================
+
+}
+
+
+html {
+
+}
+* {
+
+}
+header {
+
+}
+body {
+  background: linear-gradient(var(--color-black),var(--color-red));
+}
+p{
+  background-color: var(--color-gray-alpha)!important;
+  border-color: var(--color-black);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--color-white);
+}
